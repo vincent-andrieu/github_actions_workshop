@@ -1,9 +1,9 @@
 /*
- * EPITECH PROJECT, 2021
- * src
- * File description:
- * hello.c
- */
+** EPITECH PROJECT, 2021
+** src
+** File description:
+** hello.c
+*/
 
 #include <stdio.h>
 

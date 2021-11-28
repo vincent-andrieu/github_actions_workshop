@@ -1,9 +1,9 @@
 /*
- * EPITECH PROJECT, 2021
- * include
- * File description:
- * hello.h
- */
+** EPITECH PROJECT, 2021
+** include
+** File description:
+** hello.h
+*/
 
 #ifndef GITHUB_ACTIONS_WORKSHOP_HELLO_HPP
 #define GITHUB_ACTIONS_WORKSHOP_HELLO_HPP
