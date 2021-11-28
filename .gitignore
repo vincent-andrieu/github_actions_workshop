@@ -53,5 +53,6 @@ dkms.conf
 
 # Project
 my_hello
+unit_tests
 *.gcno
 *.gcda
