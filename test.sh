@@ -11,7 +11,7 @@ print_succeed()
 print_failed()
 {
     echo -e "\e[31mTest failed\e[0m: $1" 1>&2
-    echo -e "\tExpected:\t[$3$]" 1>&2
+    echo -e "\tExpected:\t[$3]" 1>&2
     echo -e "\tGot:\t\t["$2"]" 1>&2
 }
 
