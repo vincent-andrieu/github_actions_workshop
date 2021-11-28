@@ -29,6 +29,7 @@ clean:
 
 fclean: clean
 		@rm -f $(NAME)
+		@rm -f unit_tests
 		@($(ECHO) $(BOLD) $(GREEN)✓$(LIGHT_BLUE)" FCLEAN "$(DEFAULT))
 
 re: fclean all
