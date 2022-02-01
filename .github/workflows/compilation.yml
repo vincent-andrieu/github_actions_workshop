@@ -1,0 +1,22 @@
+name: Check compilation
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  compilation:
+    runs-on: ubuntu-20.04
+    container: epitechcontent/epitest-docker:devel
+    steps:
+      # Checkout code
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Run
+      - name: Build
+        run: make
+
+      - name: Check if binary exist
+        run: ls my_hello
